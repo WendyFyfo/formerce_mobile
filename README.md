@@ -2,7 +2,7 @@
 ---
 
 
-##Jawaban Tugas 7
+## Jawaban Tugas 7
 A. Jelaskan apa yang dimaksud dengan stateless widget dan stateful widget, dan jelaskan perbedaan dari keduanya.
     Stateless widget adalah widget yang statis,artinya state dari widget tersebut tidak berubah-ubah, contohnya adalah Icon dan Text. Stateful widget pada flutter adalah widget yang statenya dapat berubah akibat interaksi dari user atau adanya data yang diperbarui, Contohnya seperti checkbox dan radio button.
 
