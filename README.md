@@ -1,12 +1,13 @@
 # Formerce Mobile
 ---
+---
 
 ## Jawaban Tugas 8
 A. Apa kegunaan `const` di Flutter? Jelaskan apa keuntungan ketika menggunakan `const`, dan kapan sebaiknya tidak digunakan?
-  `const` pada Flutter digunakan  untuk membuat objek yang bersifat immutable, artinya objek tersebut tidak dapat diubah setelah dibuat. Ketika menandai sebuah widget atau nilai dengan const, Flutter dapat mengoptimalkan performa aplikasi karena objek tersebut hanya di-render sekali dan langsung disimpan dalam memori.
+>`const` pada Flutter digunakan  untuk membuat objek yang bersifat immutable, artinya objek tersebut tidak dapat diubah setelah dibuat. Ketika menandai sebuah widget atau nilai dengan const, Flutter dapat mengoptimalkan performa aplikasi karena objek tersebut hanya di-render sekali dan langsung disimpan dalam memori.
 
 B. Jelaskan dan bandingkan penggunaan *Column* dan *Row* pada Flutter. Berikan contoh implementasi dari masing-masing layout widget ini!
-  Column dan Row adalah widget layout di Flutter yang digunakan untuk mengatur posisi widget lainnya dalam bentuk vertikal dan horizontal.
+>Column dan Row adalah widget layout di Flutter yang digunakan untuk mengatur posisi widget lainnya dalam bentuk vertikal dan horizontal.
 
   Column: Mengatur *children*-nya secara vertikal (dari atas ke bawah).
   ```dart
@@ -33,13 +34,13 @@ B. Jelaskan dan bandingkan penggunaan *Column* dan *Row* pada Flutter. Berikan c
   ```  
 
 C. Sebutkan apa saja elemen input yang kamu gunakan pada halaman *form* yang kamu buat pada tugas kali ini. apakah terdapat elemen input flutter lain yang tidak kamu gunakan pada tugas ini? Jelaskan!
-  Elemen input yang saya gunakan tugas ini hanyalah TextField karena tiap input berupa text baik huruf maupun angka. Terdapat beberapa elemen input yang tidak saya gunakan seperti checkbox, slider, swith, dan radio button karena tidak sesuai dengan tipe input yang saya perlukan.
+>Elemen input yang saya gunakan tugas ini hanyalah TextField karena tiap input berupa text baik huruf maupun angka. Terdapat beberapa elemen input yang tidak saya gunakan seperti checkbox, slider, swith, dan radio button karena tidak sesuai dengan tipe input yang saya perlukan.
 
 D. Bagaimana cara kamu mengatur tema(theme) dalam aplikasi flutter agar aplikasi yang dibuat konsisten? Apakah kamu mengimplementasikan tema pada aplikasi yang kamu buat?
-  Untuk membuat aplikasi yang konsisten secara tampilan, Flutter menyediakan fitur ThemeData. Fitur ini memungkinkan kita mengatur warna, teks, dan *style* lainnya secara konsisten di seluruh aplikasi. Ya, saya mengimplementasikan tema untuk warna pada aplikasi saya.
+>Untuk membuat aplikasi yang konsisten secara tampilan, Flutter menyediakan fitur ThemeData. Fitur ini memungkinkan kita mengatur warna, teks, dan *style* lainnya secara konsisten di seluruh aplikasi. Ya, saya mengimplementasikan tema untuk warna pada aplikasi saya.
 
 E. Bagaimana cara kamu menangani navigasi dalam aplikasi dengan banyak halaman pada flutter?
-  Navigasi dalam aplikasi dengan banyak halaman pada flutter dapat dilakukan dengan fitur drawer untuk pergi ke berbagai halaman dan juga class Navigator yang memungkinkan untuk pergi ke halaman sebelum dan setelah halaman yang sedang dikunjungi sekarang.
+>Navigasi dalam aplikasi dengan banyak halaman pada flutter dapat dilakukan dengan fitur drawer untuk pergi ke berbagai halaman dan juga class Navigator yang memungkinkan untuk pergi ke halaman sebelum dan setelah halaman yang sedang dikunjungi sekarang.
 
 ## Jawaban Tugas 7
 A. Jelaskan apa yang dimaksud dengan stateless widget dan stateful widget, dan jelaskan perbedaan dari keduanya.
