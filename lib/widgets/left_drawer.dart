@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:formerce_mobile/screens/menu.dart';
 import 'package:formerce_mobile/screens/productentry_form.dart';
+import 'package:formerce_mobile/screens/list_productentry.dart';
 
 
 class LeftDrawer extends StatelessWidget {
@@ -56,10 +57,23 @@ class LeftDrawer extends StatelessWidget {
             title: const Text('Tambah Product'),
             // Bagian redirection ke ProductEntryFormPage
             onTap: () {
-              Navigator.pushReplacement(
+              Navigator.push(
                 context,
                 MaterialPageRoute(
                   builder: (context) => const ProductEntryFormPage(),
+                )
+              );
+            },
+          ),
+          ListTile(
+            leading: const Icon(Icons.add_shopping_cart_outlined),
+            title: const Text('Daftar Product'),
+            onTap: () {
+              //route ke halaman daftar product
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => const ProductEntryPage(),
                 )
               );
             },
