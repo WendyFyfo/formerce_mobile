@@ -1,5 +1,6 @@
 import 'package:formerce_mobile/screens/menu.dart';
 import 'package:flutter/material.dart';
+import 'package:formerce_mobile/screens/register.dart';
 import 'package:pbp_django_auth/pbp_django_auth.dart';
 import 'package:provider/provider.dart';
 // TODO: Import halaman RegisterPage jika sudah dibuat

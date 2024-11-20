@@ -14,7 +14,8 @@ C.  Jelaskan fungsi dari CookieRequest dan jelaskan mengapa instance CookieReque
   > Fungsi dari CookieRequest adalah agar aplikasi dapat memperhatikan perubahan pada cookies. instance CookieRequest perlu dibagikan ke semua komponen aplikasi Flutter agar seluruh komponen tersebut dapat responsif dengan perubahan dari cookie (seluruh komponen di-update ketika ada perubahan pada cookies).
 
 D.  Jelaskan mekanisme pengiriman data mulai dari input hingga dapat ditampilkan pada Flutter!
-  > 
+  > Data yang diinput pada halaman form di-*encode* menjadi JSON. Setelah itu mengirim request POST dengan JSON form tadi. Django web service menerima request tersebut dan membuat object dari model yang sesuai dengan form tadi.
+  > Untuk menampilkan, aplikasi flutter mengirimkan request GET dari JSON entri-entri produk. Django web service mengirimkan entri-entri produk dalam bentuk JSON. Setelah aplikasi menerima, JSON itu di-*decode* dan ditampilkan pada aplikasi flutter
 
  
 E.  Jelaskan mekanisme autentikasi dari login, register, hingga logout. Mulai dari input data akun pada Flutter ke Django hingga selesainya proses autentikasi oleh Django dan tampilnya menu pada Flutter.
